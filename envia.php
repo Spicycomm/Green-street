@@ -5,7 +5,6 @@
 	function pegaValor($valor) {
 		return isset($_POST[$valor]) ? $_POST[$valor] :'';
 	}
-
 	$nome = pegaValor("nome");
 	$telefone = pegaValor("tel");
 	$email = pegaValor("email");
@@ -14,7 +13,6 @@
 	
 	
 	$quebra_linha = "\n\n";
-
 	$emailSender = "ti@zabo.com.br";
 	$nomeRemetente = "Green ST";
 	$emailDestinatario = "felipe@spicycomm.com.br, David@zabo.com.br, vendas@playimovel.com.br, emily@playimovel.com.br, leadsgreenst@gmail.com";
@@ -29,7 +27,6 @@
 	$headers= "MIME-Version: 1.1".$quebra_linha;
 	
 	
-
 	if(mail($emailDestinatario, $assunto, $msg, $headers, "-r".$emailSender)) {
 		header("location: obrigado.html");
 	} else {
