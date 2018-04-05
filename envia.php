@@ -15,7 +15,7 @@
 	$quebra_linha = "\n\n";
 	$emailSender = "ti@zabo.com.br";
 	$nomeRemetente = "Green ST";
-	$emailDestinatario = "felipe@spicycomm.com.br, David@zabo.com.br, vendas@playimovel.com.br, emily@playimovel.com.br, leadsgreenst@gmail.com";
+	$emailDestinatario = "renata@spicycomm.comm.br, vendas@playimovel.com.br, emily@playimovel.com.br";
 	$assunto = "Contato enviado pelo site www.greenst.com.br";
 	$msg= $quebra_linha;
 	$msg .= "Nome: ".$nome.$quebra_linha;
